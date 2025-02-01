@@ -1,0 +1,26 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:pdc="http://www.pebble.com/2015/pdc" width="12cm" height="5.25cm" viewBox="0 0 1200 400" version="1.1">
+  <title>Example arcs01 - arc commands in path data</title>
+  <desc>Picture of a pie chart with two pie wedges and
+        a picture of a line with arc blips</desc>
+  <rect x="1" y="1" width="1198" height="398" fill="none" stroke="blue" stroke-width="1"/>
+  <path d="M300,200 h-150 a150,150 0 1,0 150,-150 z" fill="red" stroke="blue" stroke-width="5">
+    <pdc:annotation description="Element contains unsupported arc command(s).">
+      <pdc:highlight y="50.00" x="150.00" height="300.00" width="300.00"/>
+    </pdc:annotation>
+  </path>
+  <path d="M275,175 v-150 a150,150 0 0,0 -150,150 z" fill="yellow" stroke="blue" stroke-width="5">
+    <pdc:annotation description="Element contains unsupported arc command(s).">
+      <pdc:highlight y="25.00" x="125.00" height="300.00" width="300.00"/>
+    </pdc:annotation>
+  </path>
+  <path d="M600,350 l 50,-25            a25,25 -30 0,1 50,-25 l 50,-25            a25,50 -30 0,1 50,-25 l 50,-25            a25,75 -30 0,1 50,-25 l 50,-25            a25,100 -30 0,1 50,-25 l 50,-25" fill="none" stroke="red" stroke-width="5">
+    <pdc:annotation description="Element contains unsupported arc command(s).">
+      <pdc:highlight y="274.32" x="636.82" height="76.36" width="76.36"/>
+      <pdc:highlight y="200.20" x="722.91" height="124.61" width="104.17"/>
+      <pdc:highlight y="126.04" x="808.97" height="172.91" width="132.05"/>
+      <pdc:highlight y="51.89" x="895.03" height="221.23" width="159.95"/>
+    </pdc:annotation>
+  </path>
+</svg>
+

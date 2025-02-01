@@ -1,0 +1,26 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pdc="http://www.pebble.com/2015/pdc" width="100%" height="100%" viewBox="0 0 50 50" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+  <g id="Design">
+    <path d="M29,35L29,31" style="fill:white;fill-rule:nonzero;stroke-width:2px;stroke:black;"/>
+    <path d="M9,35L9,31" style="fill:white;fill-rule:nonzero;stroke-width:2px;stroke:black;"/>
+    <path d="M19,41L19,37" style="fill:white;fill-rule:nonzero;stroke-width:2px;stroke:black;"/>
+    <path d="M9,47L9,43" style="fill:white;fill-rule:nonzero;stroke-width:2px;stroke:black;"/>
+    <path d="M30.9307,21.0882L44.6746,21.5L44.6746,15.5L40.9203,11.5L29.6574,11.5L25.9031,7.5L13.7015,7.5L9.00863,12.5L5.25432,12.5L1.5,16.5L1.5,21.5L5.25432,25.5L30.9307,21.0882Z" style="fill:white;fill-rule:nonzero;stroke-width:2.91px;stroke:black;">
+      <pdc:annotation description="Element is expressed with unsupported coordinate(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-pixelgrid">
+        <pdc:highlight y="21.09" x="30.93" details="Invalid point: (30.93, 21.09). Used closest supported coordinate: (30.875, 21.125)"/>
+        <pdc:highlight y="21.50" x="44.68" details="Invalid point: (44.68, 21.50). Used closest supported coordinate: (44.625, 21.5)"/>
+        <pdc:highlight y="15.50" x="44.68" details="Invalid point: (44.68, 15.50). Used closest supported coordinate: (44.625, 15.5)"/>
+        <pdc:highlight y="11.50" x="40.92" details="Invalid point: (40.92, 11.50). Used closest supported coordinate: (40.875, 11.5)"/>
+        <pdc:highlight y="11.50" x="29.66" details="Invalid point: (29.66, 11.50). Used closest supported coordinate: (29.625, 11.5)"/>
+        <pdc:highlight y="7.50" x="25.90" details="Invalid point: (25.90, 7.50). Used closest supported coordinate: (25.875, 7.5)"/>
+        <pdc:highlight y="7.50" x="13.70" details="Invalid point: (13.70, 7.50). Used closest supported coordinate: (13.75, 7.5)"/>
+        <pdc:highlight y="12.50" x="9.01" details="Invalid point: (9.01, 12.50). Used closest supported coordinate: (9.0, 12.5)"/>
+        <pdc:highlight y="12.50" x="5.25" details="Invalid point: (5.25, 12.50). Used closest supported coordinate: (5.25, 12.5)"/>
+        <pdc:highlight y="25.50" x="5.25" details="Invalid point: (5.25, 25.50). Used closest supported coordinate: (5.25, 25.5)"/>
+        <pdc:highlight y="21.09" x="30.93" details="Invalid point: (30.93, 21.09). Used closest supported coordinate: (30.875, 21.125)"/>
+      </pdc:annotation>
+    </path>
+    <path d="M10,13L16,13L21,16" style="fill:none;stroke-width:2px;stroke:black;"/>
+  </g>
+</svg>
+

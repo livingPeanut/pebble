@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+
+from __future__ import print_function
+import os
+import platform
+import sys
+import subprocess
+
+arguments = sys.argv[1:]
+
+THIS_PATH = os.path.abspath(__file__)
+LINUX_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gif2apng_noprev_linux')
+OSX_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gif2apng_noprev_osx')
+
+if platform.system() == 'Darwin':
+  cmd = [OSX_PATH]
+elif platform.system() == 'Linux':
+  cmd = [LINUX_PATH]
+else:
+  raise Exception("Your operating system is not supported")
+
+# Transform absolute paths into relative paths (they are not supported)
+arguments = [a if a[0] != '/' else os.path.relpath(a, THIS_PATH) for a in arguments]
+cmd += arguments
+
+p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+out, err = p.communicate()
+print(out, file=sys.stdout)
+print(err, file=sys.stderr)
+
+sys.exit(p.returncode)

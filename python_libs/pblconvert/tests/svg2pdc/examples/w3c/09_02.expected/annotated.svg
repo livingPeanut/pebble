@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:pdc="http://www.pebble.com/2015/pdc" width="12cm" height="4cm" viewBox="0 0 1200 400" version="1.2" baseProfile="tiny">
+  <desc>Example rect02 - rounded rectangles</desc>
+  <!-- Show outline of canvas using 'rect' element -->
+  <rect x="1" y="1" width="1198" height="398" fill="none" stroke="blue" stroke-width="2"/>
+  <rect x="100" y="100" width="400" height="200" rx="50" fill="green">
+    <pdc:annotation description="Rounded rectangles are not supported.">
+      <pdc:highlight y="100.00" x="100.00" height="50.00" width="50.00"/>
+      <pdc:highlight y="100.00" x="450.00" height="50.00" width="50.00"/>
+      <pdc:highlight y="250.00" x="450.00" height="50.00" width="50.00"/>
+      <pdc:highlight y="250.00" x="100.00" height="50.00" width="50.00"/>
+    </pdc:annotation>
+  </rect>
+  <g transform="translate(700 210) rotate(-30)">
+    <rect x="0" y="0" width="400" height="200" rx="50" fill="none" stroke="purple" stroke-width="30">
+      <pdc:annotation description="Rounded rectangles are not supported.">
+        <pdc:highlight y="185.00" x="700.00" height="68.30" width="68.30"/>
+        <pdc:highlight y="10.00" x="1003.11" height="68.30" width="68.30"/>
+        <pdc:highlight y="139.90" x="1078.11" height="68.30" width="68.30"/>
+        <pdc:highlight y="314.90" x="775.00" height="68.30" width="68.30"/>
+      </pdc:annotation>
+      <pdc:annotation description="Element is expressed with unsupported coordinate(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-pixelgrid">
+        <pdc:highlight y="210.00" x="700.00" details="Invalid point: (700.00, 210.00). Used closest supported coordinate: (700.0, 210.0)"/>
+        <pdc:highlight y="10.00" x="1046.41" details="Invalid point: (1046.41, 10.00). Used closest supported coordinate: (1046.375, 10.0)"/>
+        <pdc:highlight y="183.21" x="1146.41" details="Invalid point: (1146.41, 183.21). Used closest supported coordinate: (1146.375, 183.25)"/>
+        <pdc:highlight y="383.21" x="800.00" details="Invalid point: (800.00, 383.21). Used closest supported coordinate: (800.0, 383.25)"/>
+      </pdc:annotation>
+    </rect>
+  </g>
+</svg>
+

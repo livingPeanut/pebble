@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Design">
+        <path d="M29,35L29,31" style="fill:white;fill-rule:nonzero;stroke-width:2px;stroke:black;"/>
+        <path d="M9,35L9,31" style="fill:white;fill-rule:nonzero;stroke-width:2px;stroke:black;"/>
+        <path d="M19,41L19,37" style="fill:white;fill-rule:nonzero;stroke-width:2px;stroke:black;"/>
+        <path d="M9,47L9,43" style="fill:white;fill-rule:nonzero;stroke-width:2px;stroke:black;"/>
+        <path d="M30.9307,21.0882L44.6746,21.5L44.6746,15.5L40.9203,11.5L29.6574,11.5L25.9031,7.5L13.7015,7.5L9.00863,12.5L5.25432,12.5L1.5,16.5L1.5,21.5L5.25432,25.5L30.9307,21.0882Z" style="fill:white;fill-rule:nonzero;stroke-width:2.91px;stroke:black;"/>
+        <path d="M10,13L16,13L21,16" style="fill:none;stroke-width:2px;stroke:black;"/>
+    </g>
+</svg>

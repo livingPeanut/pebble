@@ -1,0 +1,430 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:pdc="http://www.pebble.com/2015/pdc" width="10cm" height="10cm" viewBox="0 0 1000 1000" version="1.2" baseProfile="tiny">
+  <title>Example cubic02 - cubic Bezier commands in path data</title>
+  <desc>Picture showing examples of "C" and "S" commands,
+        along with annotations showing the control points
+        and end points</desc>
+  <rect fill="none" stroke="blue" stroke-width="1" x="1" y="1" width="998" height="998"/>
+  <!-- Path 1 -->
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="100,200 100,100"/>
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="400,100 400,200"/>
+  <path fill="none" stroke="red" stroke-width="5" d="M100,200 C100,100 400,100 400,200">
+    <pdc:annotation description="Element contains unsupported curved command(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-bezier">
+      <pdc:highlight y="125.00" x="100.00" height="75.00" width="300.00"/>
+    </pdc:annotation>
+    <pdc:annotation description="Element is expressed with unsupported coordinate(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-pixelgrid">
+      <pdc:highlight y="190.92" x="100.86" details="Invalid point: (100.86, 190.92). Used closest supported coordinate: (100.875, 190.875)"/>
+      <pdc:highlight y="182.42" x="103.37" details="Invalid point: (103.37, 182.42). Used closest supported coordinate: (103.375, 182.375)"/>
+      <pdc:highlight y="174.51" x="107.42" details="Invalid point: (107.42, 174.51). Used closest supported coordinate: (107.375, 174.5)"/>
+      <pdc:highlight y="167.19" x="112.89" details="Invalid point: (112.89, 167.19). Used closest supported coordinate: (112.875, 167.25)"/>
+      <pdc:highlight y="160.45" x="119.68" details="Invalid point: (119.68, 160.45). Used closest supported coordinate: (119.625, 160.5)"/>
+      <pdc:highlight y="154.30" x="127.69" details="Invalid point: (127.69, 154.30). Used closest supported coordinate: (127.625, 154.25)"/>
+      <pdc:highlight y="151.44" x="132.11" details="Invalid point: (132.11, 151.44). Used closest supported coordinate: (132.125, 151.5)"/>
+      <pdc:highlight y="148.73" x="136.79" details="Invalid point: (136.79, 148.73). Used closest supported coordinate: (136.75, 148.75)"/>
+      <pdc:highlight y="146.17" x="141.71" details="Invalid point: (141.71, 146.17). Used closest supported coordinate: (141.75, 146.125)"/>
+      <pdc:highlight y="141.48" x="152.26" details="Invalid point: (152.26, 141.48). Used closest supported coordinate: (152.25, 141.5)"/>
+      <pdc:highlight y="139.36" x="157.84" details="Invalid point: (157.84, 139.36). Used closest supported coordinate: (157.875, 139.375)"/>
+      <pdc:highlight y="137.38" x="163.62" details="Invalid point: (163.62, 137.38). Used closest supported coordinate: (163.625, 137.375)"/>
+      <pdc:highlight y="135.55" x="169.58" details="Invalid point: (169.58, 135.55). Used closest supported coordinate: (169.625, 135.5)"/>
+      <pdc:highlight y="133.86" x="175.70" details="Invalid point: (175.70, 133.86). Used closest supported coordinate: (175.75, 133.875)"/>
+      <pdc:highlight y="132.32" x="181.98" details="Invalid point: (181.98, 132.32). Used closest supported coordinate: (182.0, 132.375)"/>
+      <pdc:highlight y="130.93" x="188.39" details="Invalid point: (188.39, 130.93). Used closest supported coordinate: (188.375, 130.875)"/>
+      <pdc:highlight y="129.69" x="194.92" details="Invalid point: (194.92, 129.69). Used closest supported coordinate: (194.875, 129.75)"/>
+      <pdc:highlight y="128.59" x="201.57" details="Invalid point: (201.57, 128.59). Used closest supported coordinate: (201.625, 128.625)"/>
+      <pdc:highlight y="127.64" x="208.31" details="Invalid point: (208.31, 127.64). Used closest supported coordinate: (208.25, 127.625)"/>
+      <pdc:highlight y="126.83" x="215.13" details="Invalid point: (215.13, 126.83). Used closest supported coordinate: (215.125, 126.875)"/>
+      <pdc:highlight y="126.17" x="222.02" details="Invalid point: (222.02, 126.17). Used closest supported coordinate: (222.0, 126.125)"/>
+      <pdc:highlight y="125.66" x="228.97" details="Invalid point: (228.97, 125.66). Used closest supported coordinate: (229.0, 125.625)"/>
+      <pdc:highlight y="125.29" x="235.96" details="Invalid point: (235.96, 125.29). Used closest supported coordinate: (236.0, 125.25)"/>
+      <pdc:highlight y="125.07" x="242.97" details="Invalid point: (242.97, 125.07). Used closest supported coordinate: (243.0, 125.125)"/>
+      <pdc:highlight y="125.07" x="257.03" details="Invalid point: (257.03, 125.07). Used closest supported coordinate: (257.0, 125.125)"/>
+      <pdc:highlight y="125.29" x="264.04" details="Invalid point: (264.04, 125.29). Used closest supported coordinate: (264.0, 125.25)"/>
+      <pdc:highlight y="125.66" x="271.03" details="Invalid point: (271.03, 125.66). Used closest supported coordinate: (271.0, 125.625)"/>
+      <pdc:highlight y="126.17" x="277.98" details="Invalid point: (277.98, 126.17). Used closest supported coordinate: (278.0, 126.125)"/>
+      <pdc:highlight y="126.83" x="284.87" details="Invalid point: (284.87, 126.83). Used closest supported coordinate: (284.875, 126.875)"/>
+      <pdc:highlight y="127.64" x="291.69" details="Invalid point: (291.69, 127.64). Used closest supported coordinate: (291.75, 127.625)"/>
+      <pdc:highlight y="128.59" x="298.43" details="Invalid point: (298.43, 128.59). Used closest supported coordinate: (298.375, 128.625)"/>
+      <pdc:highlight y="129.69" x="305.08" details="Invalid point: (305.08, 129.69). Used closest supported coordinate: (305.125, 129.75)"/>
+      <pdc:highlight y="130.93" x="311.61" details="Invalid point: (311.61, 130.93). Used closest supported coordinate: (311.625, 130.875)"/>
+      <pdc:highlight y="132.32" x="318.02" details="Invalid point: (318.02, 132.32). Used closest supported coordinate: (318.0, 132.375)"/>
+      <pdc:highlight y="133.86" x="324.30" details="Invalid point: (324.30, 133.86). Used closest supported coordinate: (324.25, 133.875)"/>
+      <pdc:highlight y="135.55" x="330.42" details="Invalid point: (330.42, 135.55). Used closest supported coordinate: (330.375, 135.5)"/>
+      <pdc:highlight y="137.38" x="336.38" details="Invalid point: (336.38, 137.38). Used closest supported coordinate: (336.375, 137.375)"/>
+      <pdc:highlight y="139.36" x="342.16" details="Invalid point: (342.16, 139.36). Used closest supported coordinate: (342.125, 139.375)"/>
+      <pdc:highlight y="141.48" x="347.74" details="Invalid point: (347.74, 141.48). Used closest supported coordinate: (347.75, 141.5)"/>
+      <pdc:highlight y="146.17" x="358.29" details="Invalid point: (358.29, 146.17). Used closest supported coordinate: (358.25, 146.125)"/>
+      <pdc:highlight y="148.73" x="363.21" details="Invalid point: (363.21, 148.73). Used closest supported coordinate: (363.25, 148.75)"/>
+      <pdc:highlight y="151.44" x="367.89" details="Invalid point: (367.89, 151.44). Used closest supported coordinate: (367.875, 151.5)"/>
+      <pdc:highlight y="154.30" x="372.31" details="Invalid point: (372.31, 154.30). Used closest supported coordinate: (372.375, 154.25)"/>
+      <pdc:highlight y="160.45" x="380.32" details="Invalid point: (380.32, 160.45). Used closest supported coordinate: (380.375, 160.5)"/>
+      <pdc:highlight y="167.19" x="387.11" details="Invalid point: (387.11, 167.19). Used closest supported coordinate: (387.125, 167.25)"/>
+      <pdc:highlight y="174.51" x="392.58" details="Invalid point: (392.58, 174.51). Used closest supported coordinate: (392.625, 174.5)"/>
+      <pdc:highlight y="182.42" x="396.63" details="Invalid point: (396.63, 182.42). Used closest supported coordinate: (396.625, 182.375)"/>
+      <pdc:highlight y="190.92" x="399.14" details="Invalid point: (399.14, 190.92). Used closest supported coordinate: (399.125, 190.875)"/>
+    </pdc:annotation>
+  </path>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="100" cy="200" r="10"/>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="400" cy="200" r="10"/>
+  <circle class="CtlPoint" cx="100" cy="100" r="10"/>
+  <circle class="CtlPoint" cx="400" cy="100" r="10"/>
+  <!--<text text-anchor="middle" font-size="22" font-family="Verdana" x="250" y="275">M100,200 C100,100 400,100 400,200</text>-->
+  <!-- Path 2 -->
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="100,500 25,400"/>
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="475,400 400,500"/>
+  <path fill="none" stroke="red" stroke-width="5" d="M100,500 C25,400 475,400 400,500">
+    <pdc:annotation description="Element contains unsupported curved command(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-bezier">
+      <pdc:highlight y="425.00" x="91.83" height="75.00" width="316.33"/>
+    </pdc:annotation>
+    <pdc:annotation description="Element is expressed with unsupported coordinate(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-pixelgrid">
+      <pdc:highlight y="495.39" x="96.86" details="Invalid point: (96.86, 495.39). Used closest supported coordinate: (96.875, 495.375)"/>
+      <pdc:highlight y="490.92" x="94.47" details="Invalid point: (94.47, 490.92). Used closest supported coordinate: (94.5, 490.875)"/>
+      <pdc:highlight y="482.42" x="91.83" details="Invalid point: (91.83, 482.42). Used closest supported coordinate: (91.875, 482.375)"/>
+      <pdc:highlight y="474.51" x="91.88" details="Invalid point: (91.88, 474.51). Used closest supported coordinate: (91.875, 474.5)"/>
+      <pdc:highlight y="467.19" x="94.43" details="Invalid point: (94.43, 467.19). Used closest supported coordinate: (94.375, 467.25)"/>
+      <pdc:highlight y="460.45" x="99.29" details="Invalid point: (99.29, 460.45). Used closest supported coordinate: (99.25, 460.5)"/>
+      <pdc:highlight y="454.30" x="106.26" details="Invalid point: (106.26, 454.30). Used closest supported coordinate: (106.25, 454.25)"/>
+      <pdc:highlight y="451.44" x="110.48" details="Invalid point: (110.48, 451.44). Used closest supported coordinate: (110.5, 451.5)"/>
+      <pdc:highlight y="448.73" x="115.16" details="Invalid point: (115.16, 448.73). Used closest supported coordinate: (115.125, 448.75)"/>
+      <pdc:highlight y="446.17" x="120.26" details="Invalid point: (120.26, 446.17). Used closest supported coordinate: (120.25, 446.125)"/>
+      <pdc:highlight y="443.75" x="125.78" details="Invalid point: (125.78, 443.75). Used closest supported coordinate: (125.75, 443.75)"/>
+      <pdc:highlight y="441.48" x="131.68" details="Invalid point: (131.68, 441.48). Used closest supported coordinate: (131.625, 441.5)"/>
+      <pdc:highlight y="439.36" x="137.94" details="Invalid point: (137.94, 439.36). Used closest supported coordinate: (138.0, 439.375)"/>
+      <pdc:highlight y="437.38" x="144.54" details="Invalid point: (144.54, 437.38). Used closest supported coordinate: (144.5, 437.375)"/>
+      <pdc:highlight y="435.55" x="151.45" details="Invalid point: (151.45, 435.55). Used closest supported coordinate: (151.5, 435.5)"/>
+      <pdc:highlight y="433.86" x="158.65" details="Invalid point: (158.65, 433.86). Used closest supported coordinate: (158.625, 433.875)"/>
+      <pdc:highlight y="432.32" x="166.11" details="Invalid point: (166.11, 432.32). Used closest supported coordinate: (166.125, 432.375)"/>
+      <pdc:highlight y="430.93" x="173.82" details="Invalid point: (173.82, 430.93). Used closest supported coordinate: (173.875, 430.875)"/>
+      <pdc:highlight y="429.69" x="181.74" details="Invalid point: (181.74, 429.69). Used closest supported coordinate: (181.75, 429.75)"/>
+      <pdc:highlight y="428.59" x="189.85" details="Invalid point: (189.85, 428.59). Used closest supported coordinate: (189.875, 428.625)"/>
+      <pdc:highlight y="427.64" x="198.13" details="Invalid point: (198.13, 427.64). Used closest supported coordinate: (198.125, 427.625)"/>
+      <pdc:highlight y="426.83" x="206.56" details="Invalid point: (206.56, 426.83). Used closest supported coordinate: (206.5, 426.875)"/>
+      <pdc:highlight y="426.17" x="215.10" details="Invalid point: (215.10, 426.17). Used closest supported coordinate: (215.125, 426.125)"/>
+      <pdc:highlight y="425.66" x="223.74" details="Invalid point: (223.74, 425.66). Used closest supported coordinate: (223.75, 425.625)"/>
+      <pdc:highlight y="425.29" x="232.45" details="Invalid point: (232.45, 425.29). Used closest supported coordinate: (232.5, 425.25)"/>
+      <pdc:highlight y="425.07" x="241.21" details="Invalid point: (241.21, 425.07). Used closest supported coordinate: (241.25, 425.125)"/>
+      <pdc:highlight y="425.07" x="258.79" details="Invalid point: (258.79, 425.07). Used closest supported coordinate: (258.75, 425.125)"/>
+      <pdc:highlight y="425.29" x="267.55" details="Invalid point: (267.55, 425.29). Used closest supported coordinate: (267.5, 425.25)"/>
+      <pdc:highlight y="425.66" x="276.26" details="Invalid point: (276.26, 425.66). Used closest supported coordinate: (276.25, 425.625)"/>
+      <pdc:highlight y="426.17" x="284.90" details="Invalid point: (284.90, 426.17). Used closest supported coordinate: (284.875, 426.125)"/>
+      <pdc:highlight y="426.83" x="293.44" details="Invalid point: (293.44, 426.83). Used closest supported coordinate: (293.5, 426.875)"/>
+      <pdc:highlight y="427.64" x="301.87" details="Invalid point: (301.87, 427.64). Used closest supported coordinate: (301.875, 427.625)"/>
+      <pdc:highlight y="428.59" x="310.15" details="Invalid point: (310.15, 428.59). Used closest supported coordinate: (310.125, 428.625)"/>
+      <pdc:highlight y="429.69" x="318.26" details="Invalid point: (318.26, 429.69). Used closest supported coordinate: (318.25, 429.75)"/>
+      <pdc:highlight y="430.93" x="326.18" details="Invalid point: (326.18, 430.93). Used closest supported coordinate: (326.125, 430.875)"/>
+      <pdc:highlight y="432.32" x="333.89" details="Invalid point: (333.89, 432.32). Used closest supported coordinate: (333.875, 432.375)"/>
+      <pdc:highlight y="433.86" x="341.35" details="Invalid point: (341.35, 433.86). Used closest supported coordinate: (341.375, 433.875)"/>
+      <pdc:highlight y="435.55" x="348.55" details="Invalid point: (348.55, 435.55). Used closest supported coordinate: (348.5, 435.5)"/>
+      <pdc:highlight y="437.38" x="355.46" details="Invalid point: (355.46, 437.38). Used closest supported coordinate: (355.5, 437.375)"/>
+      <pdc:highlight y="439.36" x="362.06" details="Invalid point: (362.06, 439.36). Used closest supported coordinate: (362.0, 439.375)"/>
+      <pdc:highlight y="441.48" x="368.32" details="Invalid point: (368.32, 441.48). Used closest supported coordinate: (368.375, 441.5)"/>
+      <pdc:highlight y="443.75" x="374.22" details="Invalid point: (374.22, 443.75). Used closest supported coordinate: (374.25, 443.75)"/>
+      <pdc:highlight y="446.17" x="379.74" details="Invalid point: (379.74, 446.17). Used closest supported coordinate: (379.75, 446.125)"/>
+      <pdc:highlight y="448.73" x="384.84" details="Invalid point: (384.84, 448.73). Used closest supported coordinate: (384.875, 448.75)"/>
+      <pdc:highlight y="451.44" x="389.52" details="Invalid point: (389.52, 451.44). Used closest supported coordinate: (389.5, 451.5)"/>
+      <pdc:highlight y="454.30" x="393.74" details="Invalid point: (393.74, 454.30). Used closest supported coordinate: (393.75, 454.25)"/>
+      <pdc:highlight y="460.45" x="400.71" details="Invalid point: (400.71, 460.45). Used closest supported coordinate: (400.75, 460.5)"/>
+      <pdc:highlight y="467.19" x="405.57" details="Invalid point: (405.57, 467.19). Used closest supported coordinate: (405.625, 467.25)"/>
+      <pdc:highlight y="474.51" x="408.12" details="Invalid point: (408.12, 474.51). Used closest supported coordinate: (408.125, 474.5)"/>
+      <pdc:highlight y="482.42" x="408.17" details="Invalid point: (408.17, 482.42). Used closest supported coordinate: (408.125, 482.375)"/>
+      <pdc:highlight y="490.92" x="405.53" details="Invalid point: (405.53, 490.92). Used closest supported coordinate: (405.5, 490.875)"/>
+      <pdc:highlight y="495.39" x="403.14" details="Invalid point: (403.14, 495.39). Used closest supported coordinate: (403.125, 495.375)"/>
+    </pdc:annotation>
+  </path>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="100" cy="500" r="10"/>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="400" cy="500" r="10"/>
+  <circle fill="#888888" stroke="none" cx="25" cy="400" r="10"/>
+  <circle fill="#888888" stroke="none" cx="475" cy="400" r="10"/>
+  <!--<text text-anchor="middle" font-size="22" font-family="Verdana" x="250" y="575">M100,500 C25,400 475,400 400,500</text>-->
+  <!-- Path 3 -->
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="100,800 175,700"/>
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="325,700 400,800"/>
+  <path fill="none" stroke="red" stroke-width="5" d="M100,800 C175,700 325,700 400,800">
+    <pdc:annotation description="Element contains unsupported curved command(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-bezier">
+      <pdc:highlight y="725.00" x="100.00" height="75.00" width="300.00"/>
+    </pdc:annotation>
+    <pdc:annotation description="Element is expressed with unsupported coordinate(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-pixelgrid">
+      <pdc:highlight y="795.39" x="103.57" details="Invalid point: (103.57, 795.39). Used closest supported coordinate: (103.625, 795.375)"/>
+      <pdc:highlight y="790.92" x="107.25" details="Invalid point: (107.25, 790.92). Used closest supported coordinate: (107.25, 790.875)"/>
+      <pdc:highlight y="786.60" x="111.03" details="Invalid point: (111.03, 786.60). Used closest supported coordinate: (111.0, 786.625)"/>
+      <pdc:highlight y="782.42" x="114.90" details="Invalid point: (114.90, 782.42). Used closest supported coordinate: (114.875, 782.375)"/>
+      <pdc:highlight y="778.39" x="118.88" details="Invalid point: (118.88, 778.39). Used closest supported coordinate: (118.875, 778.375)"/>
+      <pdc:highlight y="774.51" x="122.95" details="Invalid point: (122.95, 774.51). Used closest supported coordinate: (123.0, 774.5)"/>
+      <pdc:highlight y="770.78" x="127.10" details="Invalid point: (127.10, 770.78). Used closest supported coordinate: (127.125, 770.75)"/>
+      <pdc:highlight y="767.19" x="131.35" details="Invalid point: (131.35, 767.19). Used closest supported coordinate: (131.375, 767.25)"/>
+      <pdc:highlight y="763.75" x="135.67" details="Invalid point: (135.67, 763.75). Used closest supported coordinate: (135.625, 763.75)"/>
+      <pdc:highlight y="760.45" x="140.08" details="Invalid point: (140.08, 760.45). Used closest supported coordinate: (140.125, 760.5)"/>
+      <pdc:highlight y="757.30" x="144.56" details="Invalid point: (144.56, 757.30). Used closest supported coordinate: (144.5, 757.25)"/>
+      <pdc:highlight y="754.30" x="149.11" details="Invalid point: (149.11, 754.30). Used closest supported coordinate: (149.125, 754.25)"/>
+      <pdc:highlight y="751.44" x="153.73" details="Invalid point: (153.73, 751.44). Used closest supported coordinate: (153.75, 751.5)"/>
+      <pdc:highlight y="748.73" x="158.42" details="Invalid point: (158.42, 748.73). Used closest supported coordinate: (158.375, 748.75)"/>
+      <pdc:highlight y="746.17" x="163.16" details="Invalid point: (163.16, 746.17). Used closest supported coordinate: (163.125, 746.125)"/>
+      <pdc:highlight y="743.75" x="167.97" details="Invalid point: (167.97, 743.75). Used closest supported coordinate: (168.0, 743.75)"/>
+      <pdc:highlight y="741.48" x="172.83" details="Invalid point: (172.83, 741.48). Used closest supported coordinate: (172.875, 741.5)"/>
+      <pdc:highlight y="739.36" x="177.74" details="Invalid point: (177.74, 739.36). Used closest supported coordinate: (177.75, 739.375)"/>
+      <pdc:highlight y="737.38" x="182.70" details="Invalid point: (182.70, 737.38). Used closest supported coordinate: (182.75, 737.375)"/>
+      <pdc:highlight y="735.55" x="187.71" details="Invalid point: (187.71, 735.55). Used closest supported coordinate: (187.75, 735.5)"/>
+      <pdc:highlight y="733.86" x="192.75" details="Invalid point: (192.75, 733.86). Used closest supported coordinate: (192.75, 733.875)"/>
+      <pdc:highlight y="732.32" x="197.84" details="Invalid point: (197.84, 732.32). Used closest supported coordinate: (197.875, 732.375)"/>
+      <pdc:highlight y="730.93" x="202.96" details="Invalid point: (202.96, 730.93). Used closest supported coordinate: (203.0, 730.875)"/>
+      <pdc:highlight y="729.69" x="208.11" details="Invalid point: (208.11, 729.69). Used closest supported coordinate: (208.125, 729.75)"/>
+      <pdc:highlight y="728.59" x="213.28" details="Invalid point: (213.28, 728.59). Used closest supported coordinate: (213.25, 728.625)"/>
+      <pdc:highlight y="727.64" x="218.48" details="Invalid point: (218.48, 727.64). Used closest supported coordinate: (218.5, 727.625)"/>
+      <pdc:highlight y="726.83" x="223.70" details="Invalid point: (223.70, 726.83). Used closest supported coordinate: (223.75, 726.875)"/>
+      <pdc:highlight y="726.17" x="228.94" details="Invalid point: (228.94, 726.17). Used closest supported coordinate: (229.0, 726.125)"/>
+      <pdc:highlight y="725.66" x="234.20" details="Invalid point: (234.20, 725.66). Used closest supported coordinate: (234.25, 725.625)"/>
+      <pdc:highlight y="725.29" x="239.46" details="Invalid point: (239.46, 725.29). Used closest supported coordinate: (239.5, 725.25)"/>
+      <pdc:highlight y="725.07" x="244.73" details="Invalid point: (244.73, 725.07). Used closest supported coordinate: (244.75, 725.125)"/>
+      <pdc:highlight y="725.07" x="255.27" details="Invalid point: (255.27, 725.07). Used closest supported coordinate: (255.25, 725.125)"/>
+      <pdc:highlight y="725.29" x="260.54" details="Invalid point: (260.54, 725.29). Used closest supported coordinate: (260.5, 725.25)"/>
+      <pdc:highlight y="725.66" x="265.80" details="Invalid point: (265.80, 725.66). Used closest supported coordinate: (265.75, 725.625)"/>
+      <pdc:highlight y="726.17" x="271.06" details="Invalid point: (271.06, 726.17). Used closest supported coordinate: (271.0, 726.125)"/>
+      <pdc:highlight y="726.83" x="276.30" details="Invalid point: (276.30, 726.83). Used closest supported coordinate: (276.25, 726.875)"/>
+      <pdc:highlight y="727.64" x="281.52" details="Invalid point: (281.52, 727.64). Used closest supported coordinate: (281.5, 727.625)"/>
+      <pdc:highlight y="728.59" x="286.72" details="Invalid point: (286.72, 728.59). Used closest supported coordinate: (286.75, 728.625)"/>
+      <pdc:highlight y="729.69" x="291.89" details="Invalid point: (291.89, 729.69). Used closest supported coordinate: (291.875, 729.75)"/>
+      <pdc:highlight y="730.93" x="297.04" details="Invalid point: (297.04, 730.93). Used closest supported coordinate: (297.0, 730.875)"/>
+      <pdc:highlight y="732.32" x="302.16" details="Invalid point: (302.16, 732.32). Used closest supported coordinate: (302.125, 732.375)"/>
+      <pdc:highlight y="733.86" x="307.25" details="Invalid point: (307.25, 733.86). Used closest supported coordinate: (307.25, 733.875)"/>
+      <pdc:highlight y="735.55" x="312.29" details="Invalid point: (312.29, 735.55). Used closest supported coordinate: (312.25, 735.5)"/>
+      <pdc:highlight y="737.38" x="317.30" details="Invalid point: (317.30, 737.38). Used closest supported coordinate: (317.25, 737.375)"/>
+      <pdc:highlight y="739.36" x="322.26" details="Invalid point: (322.26, 739.36). Used closest supported coordinate: (322.25, 739.375)"/>
+      <pdc:highlight y="741.48" x="327.17" details="Invalid point: (327.17, 741.48). Used closest supported coordinate: (327.125, 741.5)"/>
+      <pdc:highlight y="743.75" x="332.03" details="Invalid point: (332.03, 743.75). Used closest supported coordinate: (332.0, 743.75)"/>
+      <pdc:highlight y="746.17" x="336.84" details="Invalid point: (336.84, 746.17). Used closest supported coordinate: (336.875, 746.125)"/>
+      <pdc:highlight y="748.73" x="341.58" details="Invalid point: (341.58, 748.73). Used closest supported coordinate: (341.625, 748.75)"/>
+      <pdc:highlight y="751.44" x="346.27" details="Invalid point: (346.27, 751.44). Used closest supported coordinate: (346.25, 751.5)"/>
+      <pdc:highlight y="754.30" x="350.89" details="Invalid point: (350.89, 754.30). Used closest supported coordinate: (350.875, 754.25)"/>
+      <pdc:highlight y="757.30" x="355.44" details="Invalid point: (355.44, 757.30). Used closest supported coordinate: (355.5, 757.25)"/>
+      <pdc:highlight y="760.45" x="359.92" details="Invalid point: (359.92, 760.45). Used closest supported coordinate: (359.875, 760.5)"/>
+      <pdc:highlight y="763.75" x="364.33" details="Invalid point: (364.33, 763.75). Used closest supported coordinate: (364.375, 763.75)"/>
+      <pdc:highlight y="767.19" x="368.65" details="Invalid point: (368.65, 767.19). Used closest supported coordinate: (368.625, 767.25)"/>
+      <pdc:highlight y="770.78" x="372.90" details="Invalid point: (372.90, 770.78). Used closest supported coordinate: (372.875, 770.75)"/>
+      <pdc:highlight y="774.51" x="377.05" details="Invalid point: (377.05, 774.51). Used closest supported coordinate: (377.0, 774.5)"/>
+      <pdc:highlight y="778.39" x="381.12" details="Invalid point: (381.12, 778.39). Used closest supported coordinate: (381.125, 778.375)"/>
+      <pdc:highlight y="782.42" x="385.10" details="Invalid point: (385.10, 782.42). Used closest supported coordinate: (385.125, 782.375)"/>
+      <pdc:highlight y="786.60" x="388.97" details="Invalid point: (388.97, 786.60). Used closest supported coordinate: (389.0, 786.625)"/>
+      <pdc:highlight y="790.92" x="392.75" details="Invalid point: (392.75, 790.92). Used closest supported coordinate: (392.75, 790.875)"/>
+      <pdc:highlight y="795.39" x="396.43" details="Invalid point: (396.43, 795.39). Used closest supported coordinate: (396.375, 795.375)"/>
+    </pdc:annotation>
+  </path>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="100" cy="800" r="10"/>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="400" cy="800" r="10"/>
+  <circle fill="#888888" stroke="none" cx="175" cy="700" r="10"/>
+  <circle fill="#888888" stroke="none" cx="325" cy="700" r="10"/>
+  <!--<text text-anchor="middle" font-size="22" font-family="Verdana" x="250" y="875">M100,800 C175,700 325,700 400,800</text>-->
+  <!-- Path 4 -->
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="600,200 675,100"/>
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="975,100 900,200"/>
+  <path fill="none" stroke="red" stroke-width="5" d="M600,200 C675,100 975,100 900,200">
+    <pdc:annotation description="Element contains unsupported curved command(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-bezier">
+      <pdc:highlight y="125.00" x="600.00" height="75.00" width="311.72"/>
+    </pdc:annotation>
+    <pdc:annotation description="Element is expressed with unsupported coordinate(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-pixelgrid">
+      <pdc:highlight y="195.39" x="603.68" details="Invalid point: (603.68, 195.39). Used closest supported coordinate: (603.625, 195.375)"/>
+      <pdc:highlight y="190.92" x="607.67" details="Invalid point: (607.67, 190.92). Used closest supported coordinate: (607.625, 190.875)"/>
+      <pdc:highlight y="186.60" x="611.97" details="Invalid point: (611.97, 186.60). Used closest supported coordinate: (612.0, 186.625)"/>
+      <pdc:highlight y="182.42" x="616.55" details="Invalid point: (616.55, 182.42). Used closest supported coordinate: (616.5, 182.375)"/>
+      <pdc:highlight y="178.39" x="621.41" details="Invalid point: (621.41, 178.39). Used closest supported coordinate: (621.375, 178.375)"/>
+      <pdc:highlight y="174.51" x="626.53" details="Invalid point: (626.53, 174.51). Used closest supported coordinate: (626.5, 174.5)"/>
+      <pdc:highlight y="170.78" x="631.90" details="Invalid point: (631.90, 170.78). Used closest supported coordinate: (631.875, 170.75)"/>
+      <pdc:highlight y="167.19" x="637.50" details="Invalid point: (637.50, 167.19). Used closest supported coordinate: (637.5, 167.25)"/>
+      <pdc:highlight y="163.75" x="643.32" details="Invalid point: (643.32, 163.75). Used closest supported coordinate: (643.375, 163.75)"/>
+      <pdc:highlight y="160.45" x="649.35" details="Invalid point: (649.35, 160.45). Used closest supported coordinate: (649.375, 160.5)"/>
+      <pdc:highlight y="157.30" x="655.57" details="Invalid point: (655.57, 157.30). Used closest supported coordinate: (655.625, 157.25)"/>
+      <pdc:highlight y="154.30" x="661.96" details="Invalid point: (661.96, 154.30). Used closest supported coordinate: (662.0, 154.25)"/>
+      <pdc:highlight y="151.44" x="668.52" details="Invalid point: (668.52, 151.44). Used closest supported coordinate: (668.5, 151.5)"/>
+      <pdc:highlight y="148.73" x="675.24" details="Invalid point: (675.24, 148.73). Used closest supported coordinate: (675.25, 148.75)"/>
+      <pdc:highlight y="146.17" x="682.09" details="Invalid point: (682.09, 146.17). Used closest supported coordinate: (682.125, 146.125)"/>
+      <pdc:highlight y="143.75" x="689.06" details="Invalid point: (689.06, 143.75). Used closest supported coordinate: (689.125, 143.75)"/>
+      <pdc:highlight y="141.48" x="696.15" details="Invalid point: (696.15, 141.48). Used closest supported coordinate: (696.125, 141.5)"/>
+      <pdc:highlight y="139.36" x="703.33" details="Invalid point: (703.33, 139.36). Used closest supported coordinate: (703.375, 139.375)"/>
+      <pdc:highlight y="137.38" x="710.59" details="Invalid point: (710.59, 137.38). Used closest supported coordinate: (710.625, 137.375)"/>
+      <pdc:highlight y="135.55" x="717.92" details="Invalid point: (717.92, 135.55). Used closest supported coordinate: (717.875, 135.5)"/>
+      <pdc:highlight y="133.86" x="725.31" details="Invalid point: (725.31, 133.86). Used closest supported coordinate: (725.25, 133.875)"/>
+      <pdc:highlight y="132.32" x="732.73" details="Invalid point: (732.73, 132.32). Used closest supported coordinate: (732.75, 132.375)"/>
+      <pdc:highlight y="130.93" x="740.19" details="Invalid point: (740.19, 130.93). Used closest supported coordinate: (740.25, 130.875)"/>
+      <pdc:highlight y="129.69" x="747.66" details="Invalid point: (747.66, 129.69). Used closest supported coordinate: (747.625, 129.75)"/>
+      <pdc:highlight y="128.59" x="755.12" details="Invalid point: (755.12, 128.59). Used closest supported coordinate: (755.125, 128.625)"/>
+      <pdc:highlight y="127.64" x="762.58" details="Invalid point: (762.58, 127.64). Used closest supported coordinate: (762.625, 127.625)"/>
+      <pdc:highlight y="126.83" x="770.01" details="Invalid point: (770.01, 126.83). Used closest supported coordinate: (770.0, 126.875)"/>
+      <pdc:highlight y="126.17" x="777.39" details="Invalid point: (777.39, 126.17). Used closest supported coordinate: (777.375, 126.125)"/>
+      <pdc:highlight y="125.66" x="784.72" details="Invalid point: (784.72, 125.66). Used closest supported coordinate: (784.75, 125.625)"/>
+      <pdc:highlight y="125.29" x="791.99" details="Invalid point: (791.99, 125.29). Used closest supported coordinate: (792.0, 125.25)"/>
+      <pdc:highlight y="125.07" x="799.17" details="Invalid point: (799.17, 125.07). Used closest supported coordinate: (799.125, 125.125)"/>
+      <pdc:highlight y="125.07" x="813.22" details="Invalid point: (813.22, 125.07). Used closest supported coordinate: (813.25, 125.125)"/>
+      <pdc:highlight y="125.29" x="820.07" details="Invalid point: (820.07, 125.29). Used closest supported coordinate: (820.125, 125.25)"/>
+      <pdc:highlight y="125.66" x="826.79" details="Invalid point: (826.79, 125.66). Used closest supported coordinate: (826.75, 125.625)"/>
+      <pdc:highlight y="126.17" x="833.35" details="Invalid point: (833.35, 126.17). Used closest supported coordinate: (833.375, 126.125)"/>
+      <pdc:highlight y="126.83" x="839.75" details="Invalid point: (839.75, 126.83). Used closest supported coordinate: (839.75, 126.875)"/>
+      <pdc:highlight y="127.64" x="845.97" details="Invalid point: (845.97, 127.64). Used closest supported coordinate: (846.0, 127.625)"/>
+      <pdc:highlight y="128.59" x="851.99" details="Invalid point: (851.99, 128.59). Used closest supported coordinate: (852.0, 128.625)"/>
+      <pdc:highlight y="129.69" x="857.81" details="Invalid point: (857.81, 129.69). Used closest supported coordinate: (857.875, 129.75)"/>
+      <pdc:highlight y="130.93" x="863.41" details="Invalid point: (863.41, 130.93). Used closest supported coordinate: (863.375, 130.875)"/>
+      <pdc:highlight y="132.32" x="868.78" details="Invalid point: (868.78, 132.32). Used closest supported coordinate: (868.75, 132.375)"/>
+      <pdc:highlight y="133.86" x="873.90" details="Invalid point: (873.90, 133.86). Used closest supported coordinate: (873.875, 133.875)"/>
+      <pdc:highlight y="135.55" x="878.76" details="Invalid point: (878.76, 135.55). Used closest supported coordinate: (878.75, 135.5)"/>
+      <pdc:highlight y="139.36" x="887.64" details="Invalid point: (887.64, 139.36). Used closest supported coordinate: (887.625, 139.375)"/>
+      <pdc:highlight y="143.75" x="895.31" details="Invalid point: (895.31, 143.75). Used closest supported coordinate: (895.375, 143.75)"/>
+      <pdc:highlight y="148.73" x="901.67" details="Invalid point: (901.67, 148.73). Used closest supported coordinate: (901.625, 148.75)"/>
+      <pdc:highlight y="154.30" x="906.59" details="Invalid point: (906.59, 154.30). Used closest supported coordinate: (906.625, 154.25)"/>
+      <pdc:highlight y="160.45" x="909.98" details="Invalid point: (909.98, 160.45). Used closest supported coordinate: (910.0, 160.5)"/>
+      <pdc:highlight y="167.19" x="911.72" details="Invalid point: (911.72, 167.19). Used closest supported coordinate: (911.75, 167.25)"/>
+      <pdc:highlight y="174.51" x="911.70" details="Invalid point: (911.70, 174.51). Used closest supported coordinate: (911.75, 174.5)"/>
+      <pdc:highlight y="182.42" x="909.81" details="Invalid point: (909.81, 182.42). Used closest supported coordinate: (909.875, 182.375)"/>
+      <pdc:highlight y="190.92" x="905.95" details="Invalid point: (905.95, 190.92). Used closest supported coordinate: (906.0, 190.875)"/>
+      <pdc:highlight y="195.39" x="903.24" details="Invalid point: (903.24, 195.39). Used closest supported coordinate: (903.25, 195.375)"/>
+    </pdc:annotation>
+  </path>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="600" cy="200" r="10"/>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="900" cy="200" r="10"/>
+  <circle fill="#888888" stroke="none" cx="675" cy="100" r="10"/>
+  <circle fill="#888888" stroke="none" cx="975" cy="100" r="10"/>
+  <!--<text text-anchor="middle" font-size="22" font-family="Verdana" x="750" y="275">M600,200 C675,100 975,100 900,200</text>-->
+  <!-- Path 5 -->
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="600,500 600,350"/>
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="900,650 900,500"/>
+  <path fill="none" stroke="red" stroke-width="5" d="M600,500 C600,350 900,650 900,500">
+    <pdc:annotation description="Element contains unsupported curved command(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-bezier">
+      <pdc:highlight y="456.74" x="600.00" height="86.52" width="300.00"/>
+    </pdc:annotation>
+    <pdc:annotation description="Element is expressed with unsupported coordinate(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-pixelgrid">
+      <pdc:highlight y="493.29" x="600.22" details="Invalid point: (600.22, 493.29). Used closest supported coordinate: (600.25, 493.25)"/>
+      <pdc:highlight y="487.23" x="600.86" details="Invalid point: (600.86, 487.23). Used closest supported coordinate: (600.875, 487.25)"/>
+      <pdc:highlight y="481.78" x="601.92" details="Invalid point: (601.92, 481.78). Used closest supported coordinate: (601.875, 481.75)"/>
+      <pdc:highlight y="476.93" x="603.37" details="Invalid point: (603.37, 476.93). Used closest supported coordinate: (603.375, 476.875)"/>
+      <pdc:highlight y="468.94" x="607.42" details="Invalid point: (607.42, 468.94). Used closest supported coordinate: (607.375, 468.875)"/>
+      <pdc:highlight y="463.09" x="612.89" details="Invalid point: (612.89, 463.09). Used closest supported coordinate: (612.875, 463.125)"/>
+      <pdc:highlight y="459.21" x="619.68" details="Invalid point: (619.68, 459.21). Used closest supported coordinate: (619.625, 459.25)"/>
+      <pdc:highlight y="457.15" x="627.69" details="Invalid point: (627.69, 457.15). Used closest supported coordinate: (627.625, 457.125)"/>
+      <pdc:highlight y="456.74" x="636.79" details="Invalid point: (636.79, 456.74). Used closest supported coordinate: (636.75, 456.75)"/>
+      <pdc:highlight y="457.81" x="646.88" details="Invalid point: (646.88, 457.81). Used closest supported coordinate: (646.875, 457.875)"/>
+      <pdc:highlight y="458.85" x="652.26" details="Invalid point: (652.26, 458.85). Used closest supported coordinate: (652.25, 458.875)"/>
+      <pdc:highlight y="460.20" x="657.84" details="Invalid point: (657.84, 460.20). Used closest supported coordinate: (657.875, 460.25)"/>
+      <pdc:highlight y="461.84" x="663.62" details="Invalid point: (663.62, 461.84). Used closest supported coordinate: (663.625, 461.875)"/>
+      <pdc:highlight y="463.75" x="669.58" details="Invalid point: (669.58, 463.75). Used closest supported coordinate: (669.625, 463.75)"/>
+      <pdc:highlight y="465.90" x="675.70" details="Invalid point: (675.70, 465.90). Used closest supported coordinate: (675.75, 465.875)"/>
+      <pdc:highlight y="468.28" x="681.98" details="Invalid point: (681.98, 468.28). Used closest supported coordinate: (682.0, 468.25)"/>
+      <pdc:highlight y="470.86" x="688.39" details="Invalid point: (688.39, 470.86). Used closest supported coordinate: (688.375, 470.875)"/>
+      <pdc:highlight y="473.63" x="694.92" details="Invalid point: (694.92, 473.63). Used closest supported coordinate: (694.875, 473.625)"/>
+      <pdc:highlight y="476.57" x="701.57" details="Invalid point: (701.57, 476.57). Used closest supported coordinate: (701.625, 476.625)"/>
+      <pdc:highlight y="479.65" x="708.31" details="Invalid point: (708.31, 479.65). Used closest supported coordinate: (708.25, 479.625)"/>
+      <pdc:highlight y="482.85" x="715.13" details="Invalid point: (715.13, 482.85). Used closest supported coordinate: (715.125, 482.875)"/>
+      <pdc:highlight y="486.16" x="722.02" details="Invalid point: (722.02, 486.16). Used closest supported coordinate: (722.0, 486.125)"/>
+      <pdc:highlight y="489.55" x="728.97" details="Invalid point: (728.97, 489.55). Used closest supported coordinate: (729.0, 489.5)"/>
+      <pdc:highlight y="493.00" x="735.96" details="Invalid point: (735.96, 493.00). Used closest supported coordinate: (736.0, 493.0)"/>
+      <pdc:highlight y="496.49" x="742.97" details="Invalid point: (742.97, 496.49). Used closest supported coordinate: (743.0, 496.5)"/>
+      <pdc:highlight y="503.51" x="757.03" details="Invalid point: (757.03, 503.51). Used closest supported coordinate: (757.0, 503.5)"/>
+      <pdc:highlight y="507.00" x="764.04" details="Invalid point: (764.04, 507.00). Used closest supported coordinate: (764.0, 507.0)"/>
+      <pdc:highlight y="510.45" x="771.03" details="Invalid point: (771.03, 510.45). Used closest supported coordinate: (771.0, 510.5)"/>
+      <pdc:highlight y="513.84" x="777.98" details="Invalid point: (777.98, 513.84). Used closest supported coordinate: (778.0, 513.875)"/>
+      <pdc:highlight y="517.15" x="784.87" details="Invalid point: (784.87, 517.15). Used closest supported coordinate: (784.875, 517.125)"/>
+      <pdc:highlight y="520.35" x="791.69" details="Invalid point: (791.69, 520.35). Used closest supported coordinate: (791.75, 520.375)"/>
+      <pdc:highlight y="523.43" x="798.43" details="Invalid point: (798.43, 523.43). Used closest supported coordinate: (798.375, 523.375)"/>
+      <pdc:highlight y="526.37" x="805.08" details="Invalid point: (805.08, 526.37). Used closest supported coordinate: (805.125, 526.375)"/>
+      <pdc:highlight y="529.14" x="811.61" details="Invalid point: (811.61, 529.14). Used closest supported coordinate: (811.625, 529.125)"/>
+      <pdc:highlight y="531.72" x="818.02" details="Invalid point: (818.02, 531.72). Used closest supported coordinate: (818.0, 531.75)"/>
+      <pdc:highlight y="534.10" x="824.30" details="Invalid point: (824.30, 534.10). Used closest supported coordinate: (824.25, 534.125)"/>
+      <pdc:highlight y="536.25" x="830.42" details="Invalid point: (830.42, 536.25). Used closest supported coordinate: (830.375, 536.25)"/>
+      <pdc:highlight y="538.16" x="836.38" details="Invalid point: (836.38, 538.16). Used closest supported coordinate: (836.375, 538.125)"/>
+      <pdc:highlight y="539.80" x="842.16" details="Invalid point: (842.16, 539.80). Used closest supported coordinate: (842.125, 539.75)"/>
+      <pdc:highlight y="541.15" x="847.74" details="Invalid point: (847.74, 541.15). Used closest supported coordinate: (847.75, 541.125)"/>
+      <pdc:highlight y="542.19" x="853.12" details="Invalid point: (853.12, 542.19). Used closest supported coordinate: (853.125, 542.25)"/>
+      <pdc:highlight y="543.26" x="863.21" details="Invalid point: (863.21, 543.26). Used closest supported coordinate: (863.25, 543.25)"/>
+      <pdc:highlight y="542.85" x="872.31" details="Invalid point: (872.31, 542.85). Used closest supported coordinate: (872.375, 542.875)"/>
+      <pdc:highlight y="540.79" x="880.32" details="Invalid point: (880.32, 540.79). Used closest supported coordinate: (880.375, 540.75)"/>
+      <pdc:highlight y="536.91" x="887.11" details="Invalid point: (887.11, 536.91). Used closest supported coordinate: (887.125, 536.875)"/>
+      <pdc:highlight y="531.06" x="892.58" details="Invalid point: (892.58, 531.06). Used closest supported coordinate: (892.625, 531.125)"/>
+      <pdc:highlight y="523.07" x="896.63" details="Invalid point: (896.63, 523.07). Used closest supported coordinate: (896.625, 523.125)"/>
+      <pdc:highlight y="518.22" x="898.08" details="Invalid point: (898.08, 518.22). Used closest supported coordinate: (898.125, 518.25)"/>
+      <pdc:highlight y="512.77" x="899.14" details="Invalid point: (899.14, 512.77). Used closest supported coordinate: (899.125, 512.75)"/>
+      <pdc:highlight y="506.71" x="899.78" details="Invalid point: (899.78, 506.71). Used closest supported coordinate: (899.75, 506.75)"/>
+    </pdc:annotation>
+  </path>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="600" cy="500" r="10"/>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="900" cy="500" r="10"/>
+  <circle fill="#888888" stroke="none" cx="600" cy="350" r="10"/>
+  <circle fill="#888888" stroke="none" cx="900" cy="650" r="10"/>
+  <!--<text text-anchor="middle" font-size="22" font-family="Verdana" x="750" y="575">M600,500 C600,350 900,650 900,500</text>-->
+  <!-- Path 6 (C and S command) -->
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="600,800 625,700"/>
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="725,700 750,800"/>
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="750,800 775,900"/>
+  <polyline fill="none" stroke="#888888" stroke-width="2" points="875,900 900,800"/>
+  <path fill="none" stroke="red" stroke-width="5" d="M600,800 C625,700 725,700 750,800                                        S875,900 900,800">
+    <pdc:annotation description="Element contains unsupported curved command(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-bezier">
+      <pdc:highlight y="725.00" x="600.00" height="75.00" width="150.00"/>
+      <pdc:highlight y="800.00" x="750.00" height="75.00" width="150.00"/>
+    </pdc:annotation>
+    <pdc:annotation description="Element is expressed with unsupported coordinate(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-pixelgrid">
+      <pdc:highlight y="790.92" x="602.56" details="Invalid point: (602.56, 790.92). Used closest supported coordinate: (602.5, 790.875)"/>
+      <pdc:highlight y="782.42" x="605.53" details="Invalid point: (605.53, 782.42). Used closest supported coordinate: (605.5, 782.375)"/>
+      <pdc:highlight y="774.51" x="608.89" details="Invalid point: (608.89, 774.51). Used closest supported coordinate: (608.875, 774.5)"/>
+      <pdc:highlight y="767.19" x="612.60" details="Invalid point: (612.60, 767.19). Used closest supported coordinate: (612.625, 767.25)"/>
+      <pdc:highlight y="760.45" x="616.64" details="Invalid point: (616.64, 760.45). Used closest supported coordinate: (616.625, 760.5)"/>
+      <pdc:highlight y="754.30" x="620.98" details="Invalid point: (620.98, 754.30). Used closest supported coordinate: (621.0, 754.25)"/>
+      <pdc:highlight y="748.73" x="625.60" details="Invalid point: (625.60, 748.73). Used closest supported coordinate: (625.625, 748.75)"/>
+      <pdc:highlight y="743.75" x="630.47" details="Invalid point: (630.47, 743.75). Used closest supported coordinate: (630.5, 743.75)"/>
+      <pdc:highlight y="739.36" x="635.55" details="Invalid point: (635.55, 739.36). Used closest supported coordinate: (635.5, 739.375)"/>
+      <pdc:highlight y="735.55" x="640.83" details="Invalid point: (640.83, 735.55). Used closest supported coordinate: (640.875, 735.5)"/>
+      <pdc:highlight y="732.32" x="646.28" details="Invalid point: (646.28, 732.32). Used closest supported coordinate: (646.25, 732.375)"/>
+      <pdc:highlight y="729.69" x="651.86" details="Invalid point: (651.86, 729.69). Used closest supported coordinate: (651.875, 729.75)"/>
+      <pdc:highlight y="727.64" x="657.55" details="Invalid point: (657.55, 727.64). Used closest supported coordinate: (657.5, 727.625)"/>
+      <pdc:highlight y="726.17" x="663.32" details="Invalid point: (663.32, 726.17). Used closest supported coordinate: (663.375, 726.125)"/>
+      <pdc:highlight y="725.29" x="669.15" details="Invalid point: (669.15, 725.29). Used closest supported coordinate: (669.125, 725.25)"/>
+      <pdc:highlight y="725.29" x="680.85" details="Invalid point: (680.85, 725.29). Used closest supported coordinate: (680.875, 725.25)"/>
+      <pdc:highlight y="726.17" x="686.68" details="Invalid point: (686.68, 726.17). Used closest supported coordinate: (686.625, 726.125)"/>
+      <pdc:highlight y="727.64" x="692.45" details="Invalid point: (692.45, 727.64). Used closest supported coordinate: (692.5, 727.625)"/>
+      <pdc:highlight y="729.69" x="698.14" details="Invalid point: (698.14, 729.69). Used closest supported coordinate: (698.125, 729.75)"/>
+      <pdc:highlight y="732.32" x="703.72" details="Invalid point: (703.72, 732.32). Used closest supported coordinate: (703.75, 732.375)"/>
+      <pdc:highlight y="735.55" x="709.17" details="Invalid point: (709.17, 735.55). Used closest supported coordinate: (709.125, 735.5)"/>
+      <pdc:highlight y="739.36" x="714.45" details="Invalid point: (714.45, 739.36). Used closest supported coordinate: (714.5, 739.375)"/>
+      <pdc:highlight y="743.75" x="719.53" details="Invalid point: (719.53, 743.75). Used closest supported coordinate: (719.5, 743.75)"/>
+      <pdc:highlight y="748.73" x="724.40" details="Invalid point: (724.40, 748.73). Used closest supported coordinate: (724.375, 748.75)"/>
+      <pdc:highlight y="754.30" x="729.02" details="Invalid point: (729.02, 754.30). Used closest supported coordinate: (729.0, 754.25)"/>
+      <pdc:highlight y="760.45" x="733.36" details="Invalid point: (733.36, 760.45). Used closest supported coordinate: (733.375, 760.5)"/>
+      <pdc:highlight y="767.19" x="737.40" details="Invalid point: (737.40, 767.19). Used closest supported coordinate: (737.375, 767.25)"/>
+      <pdc:highlight y="774.51" x="741.11" details="Invalid point: (741.11, 774.51). Used closest supported coordinate: (741.125, 774.5)"/>
+      <pdc:highlight y="782.42" x="744.47" details="Invalid point: (744.47, 782.42). Used closest supported coordinate: (744.5, 782.375)"/>
+      <pdc:highlight y="790.92" x="747.44" details="Invalid point: (747.44, 790.92). Used closest supported coordinate: (747.5, 790.875)"/>
+      <pdc:highlight y="809.08" x="752.56" details="Invalid point: (752.56, 809.08). Used closest supported coordinate: (752.5, 809.125)"/>
+      <pdc:highlight y="817.58" x="755.53" details="Invalid point: (755.53, 817.58). Used closest supported coordinate: (755.5, 817.625)"/>
+      <pdc:highlight y="825.49" x="758.89" details="Invalid point: (758.89, 825.49). Used closest supported coordinate: (758.875, 825.5)"/>
+      <pdc:highlight y="832.81" x="762.60" details="Invalid point: (762.60, 832.81). Used closest supported coordinate: (762.625, 832.875)"/>
+      <pdc:highlight y="839.55" x="766.64" details="Invalid point: (766.64, 839.55). Used closest supported coordinate: (766.625, 839.5)"/>
+      <pdc:highlight y="845.70" x="770.98" details="Invalid point: (770.98, 845.70). Used closest supported coordinate: (771.0, 845.75)"/>
+      <pdc:highlight y="851.27" x="775.60" details="Invalid point: (775.60, 851.27). Used closest supported coordinate: (775.625, 851.25)"/>
+      <pdc:highlight y="856.25" x="780.47" details="Invalid point: (780.47, 856.25). Used closest supported coordinate: (780.5, 856.25)"/>
+      <pdc:highlight y="860.64" x="785.55" details="Invalid point: (785.55, 860.64). Used closest supported coordinate: (785.5, 860.625)"/>
+      <pdc:highlight y="864.45" x="790.83" details="Invalid point: (790.83, 864.45). Used closest supported coordinate: (790.875, 864.5)"/>
+      <pdc:highlight y="867.68" x="796.28" details="Invalid point: (796.28, 867.68). Used closest supported coordinate: (796.25, 867.625)"/>
+      <pdc:highlight y="870.31" x="801.86" details="Invalid point: (801.86, 870.31). Used closest supported coordinate: (801.875, 870.375)"/>
+      <pdc:highlight y="872.36" x="807.55" details="Invalid point: (807.55, 872.36). Used closest supported coordinate: (807.5, 872.375)"/>
+      <pdc:highlight y="873.83" x="813.32" details="Invalid point: (813.32, 873.83). Used closest supported coordinate: (813.375, 873.875)"/>
+      <pdc:highlight y="874.71" x="819.15" details="Invalid point: (819.15, 874.71). Used closest supported coordinate: (819.125, 874.75)"/>
+      <pdc:highlight y="874.71" x="830.85" details="Invalid point: (830.85, 874.71). Used closest supported coordinate: (830.875, 874.75)"/>
+      <pdc:highlight y="873.83" x="836.68" details="Invalid point: (836.68, 873.83). Used closest supported coordinate: (836.625, 873.875)"/>
+      <pdc:highlight y="872.36" x="842.45" details="Invalid point: (842.45, 872.36). Used closest supported coordinate: (842.5, 872.375)"/>
+      <pdc:highlight y="870.31" x="848.14" details="Invalid point: (848.14, 870.31). Used closest supported coordinate: (848.125, 870.375)"/>
+      <pdc:highlight y="867.68" x="853.72" details="Invalid point: (853.72, 867.68). Used closest supported coordinate: (853.75, 867.625)"/>
+      <pdc:highlight y="864.45" x="859.17" details="Invalid point: (859.17, 864.45). Used closest supported coordinate: (859.125, 864.5)"/>
+      <pdc:highlight y="860.64" x="864.45" details="Invalid point: (864.45, 860.64). Used closest supported coordinate: (864.5, 860.625)"/>
+      <pdc:highlight y="856.25" x="869.53" details="Invalid point: (869.53, 856.25). Used closest supported coordinate: (869.5, 856.25)"/>
+      <pdc:highlight y="851.27" x="874.40" details="Invalid point: (874.40, 851.27). Used closest supported coordinate: (874.375, 851.25)"/>
+      <pdc:highlight y="845.70" x="879.02" details="Invalid point: (879.02, 845.70). Used closest supported coordinate: (879.0, 845.75)"/>
+      <pdc:highlight y="839.55" x="883.36" details="Invalid point: (883.36, 839.55). Used closest supported coordinate: (883.375, 839.5)"/>
+      <pdc:highlight y="832.81" x="887.40" details="Invalid point: (887.40, 832.81). Used closest supported coordinate: (887.375, 832.875)"/>
+      <pdc:highlight y="825.49" x="891.11" details="Invalid point: (891.11, 825.49). Used closest supported coordinate: (891.125, 825.5)"/>
+      <pdc:highlight y="817.58" x="894.47" details="Invalid point: (894.47, 817.58). Used closest supported coordinate: (894.5, 817.625)"/>
+      <pdc:highlight y="809.08" x="897.44" details="Invalid point: (897.44, 809.08). Used closest supported coordinate: (897.5, 809.125)"/>
+    </pdc:annotation>
+  </path>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="600" cy="800" r="10"/>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="750" cy="800" r="10"/>
+  <circle fill="none" stroke="#888888" stroke-width="2" cx="900" cy="800" r="10"/>
+  <circle fill="#888888" stroke="none" cx="625" cy="700" r="10"/>
+  <circle fill="#888888" stroke="none" cx="725" cy="700" r="10"/>
+  <circle fill="#888888" stroke="none" cx="875" cy="900" r="10"/>
+  <circle fill="none" stroke="blue" stroke-width="4" cx="775" cy="900" r="9"/>
+  <!--<text text-anchor="middle" font-size="22" font-family="Verdana" x="750" y="945">M600,800 C625,700 725,700 750,800</text>-->
+  <!--<text text-anchor="middle" font-size="22" font-family="Verdana" x="750" y="975">S875,900 900,800</text>-->
+</svg>
+

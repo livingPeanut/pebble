@@ -1,0 +1,34 @@
+def configure(conf):
+    pass
+
+def build(bld):
+    # FreeRTOS vendor code
+    if bld.env.MICRO_FAMILY == 'STM32F2':
+        freertos_port_name = 'ARM_CM3_PEBBLE'
+    elif bld.env.MICRO_FAMILY == 'STM32F4':
+        freertos_port_name = 'ARM_CM4_PEBBLE'
+    elif bld.env.MICRO_FAMILY == 'STM32F7':
+        freertos_port_name = 'ARM_CM4_PEBBLE' # fix to CM7 when we have it
+    else:
+        bld.fatal('Unrecognized env.MICRO_FAMILY value %r' %
+                  bld.env.MICRO_FAMILY)
+
+    freertos_includes = [ 'Source/include',
+                          'Source/portable/GCC/' + freertos_port_name ]
+
+    freertos_source_paths = [ 'Source',
+                              'Source/portable/GCC/' + freertos_port_name ]
+    freertos_sources = sum([bld.path.ant_glob(d + '/*.c')
+                           for d in freertos_source_paths], [])
+
+    bld(export_includes=freertos_includes, name='freertos_includes')
+
+    bld.stlib(source=freertos_sources,
+              target='freertos',
+              use=['pblibc',
+                   'fw_includes',
+                   'freertos_includes'],
+              export_defines='GCC_{}'.format(freertos_port_name))
+
+# vim:filetype=python
+

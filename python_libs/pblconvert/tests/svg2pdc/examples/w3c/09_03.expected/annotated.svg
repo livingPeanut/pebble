@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:pdc="http://www.pebble.com/2015/pdc" width="12cm" height="4cm" viewBox="0 0 1200 400" version="1.2" baseProfile="tiny">
+  <desc>Example circle01 - circle filled with red and stroked with blue</desc>
+  <!-- Show outline of canvas using 'rect' element -->
+  <rect x="1" y="1" width="1198" height="398" fill="none" stroke="blue" stroke-width="2"/>
+  <circle cx="600" cy="200" r="100" fill="red" stroke="blue" stroke-width="10"/>
+  <circle cx="900" cy="200" r="100" transform="scale(0.3, 1)" fill="red" stroke="blue" stroke-width="10">
+    <pdc:annotation description="Only rigid transformations for circles are supported.">
+      <pdc:highlight y="100.00" x="240.00" height="200.00" width="60.00"/>
+    </pdc:annotation>
+  </circle>
+</svg>
+

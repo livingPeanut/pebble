@@ -1,0 +1,66 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:pdc="http://www.pebble.com/2015/pdc" version="1.1" id="Design" x="0px" y="0px" viewBox="0 0 64 74" enable-background="new 0 0 64 74" xml:space="preserve">
+  <rect x="9" y="2" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="14" height="70"/>
+  <path fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="  M16.3,51h-0.6C8.1,51,2,44.9,2,37.3v-0.6C2,29.1,8.1,23,15.7,23h0.6C23.9,23,30,29.1,30,36.7v0.6C30,44.9,23.9,51,16.3,51z">
+    <pdc:annotation description="Element contains unsupported curved command(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-bezier">
+      <pdc:highlight y="37.30" x="2.00" height="13.70" width="13.70"/>
+      <pdc:highlight y="23.00" x="2.00" height="13.70" width="13.70"/>
+      <pdc:highlight y="23.00" x="16.30" height="13.70" width="13.70"/>
+      <pdc:highlight y="37.30" x="16.30" height="13.70" width="13.70"/>
+    </pdc:annotation>
+    <pdc:annotation description="Element is expressed with unsupported coordinate(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-pixelgrid">
+      <pdc:highlight y="51.00" x="16.30" details="Invalid point: (16.30, 51.00). Used closest supported coordinate: (16.25, 51.0)"/>
+      <pdc:highlight y="51.00" x="15.70" details="Invalid point: (15.70, 51.00). Used closest supported coordinate: (15.75, 51.0)"/>
+      <pdc:highlight y="49.93" x="10.35" details="Invalid point: (10.35, 49.93). Used closest supported coordinate: (10.375, 49.875)"/>
+      <pdc:highlight y="47.00" x="6.00" details="Invalid point: (6.00, 47.00). Used closest supported coordinate: (6.0, 47.0)"/>
+      <pdc:highlight y="42.65" x="3.07" details="Invalid point: (3.07, 42.65). Used closest supported coordinate: (3.125, 42.625)"/>
+      <pdc:highlight y="37.30" x="2.00" details="Invalid point: (2.00, 37.30). Used closest supported coordinate: (2.0, 37.25)"/>
+      <pdc:highlight y="36.70" x="2.00" details="Invalid point: (2.00, 36.70). Used closest supported coordinate: (2.0, 36.75)"/>
+      <pdc:highlight y="31.35" x="3.07" details="Invalid point: (3.07, 31.35). Used closest supported coordinate: (3.125, 31.375)"/>
+      <pdc:highlight y="27.00" x="6.00" details="Invalid point: (6.00, 27.00). Used closest supported coordinate: (6.0, 27.0)"/>
+      <pdc:highlight y="24.07" x="10.35" details="Invalid point: (10.35, 24.07). Used closest supported coordinate: (10.375, 24.125)"/>
+      <pdc:highlight y="23.00" x="15.70" details="Invalid point: (15.70, 23.00). Used closest supported coordinate: (15.75, 23.0)"/>
+      <pdc:highlight y="23.00" x="16.30" details="Invalid point: (16.30, 23.00). Used closest supported coordinate: (16.25, 23.0)"/>
+      <pdc:highlight y="24.07" x="21.65" details="Invalid point: (21.65, 24.07). Used closest supported coordinate: (21.625, 24.125)"/>
+      <pdc:highlight y="27.00" x="26.00" details="Invalid point: (26.00, 27.00). Used closest supported coordinate: (26.0, 27.0)"/>
+      <pdc:highlight y="31.35" x="28.93" details="Invalid point: (28.93, 31.35). Used closest supported coordinate: (28.875, 31.375)"/>
+      <pdc:highlight y="36.70" x="30.00" details="Invalid point: (30.00, 36.70). Used closest supported coordinate: (30.0, 36.75)"/>
+      <pdc:highlight y="37.30" x="30.00" details="Invalid point: (30.00, 37.30). Used closest supported coordinate: (30.0, 37.25)"/>
+      <pdc:highlight y="42.65" x="28.93" details="Invalid point: (28.93, 42.65). Used closest supported coordinate: (28.875, 42.625)"/>
+      <pdc:highlight y="47.00" x="26.00" details="Invalid point: (26.00, 47.00). Used closest supported coordinate: (26.0, 47.0)"/>
+      <pdc:highlight y="49.93" x="21.65" details="Invalid point: (21.65, 49.93). Used closest supported coordinate: (21.625, 49.875)"/>
+      <pdc:highlight y="51.00" x="16.30" details="Invalid point: (16.30, 51.00). Used closest supported coordinate: (16.25, 51.0)"/>
+    </pdc:annotation>
+  </path>
+  <line fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="9.5" y1="14.5" x2="23.5" y2="14.5"/>
+  <line fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="16" y1="14.5" x2="16" y2="9"/>
+  <path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="  M16.3,44.5h-0.6c-4,0-7.2-3.2-7.2-7.2v-0.6c0-4,3.2-7.2,7.2-7.2h0.6c4,0,7.2,3.2,7.2,7.2v0.6C23.5,41.3,20.3,44.5,16.3,44.5z">
+    <pdc:annotation description="Element contains unsupported curved command(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-bezier">
+      <pdc:highlight y="37.30" x="8.50" height="7.20" width="7.20"/>
+      <pdc:highlight y="29.50" x="8.50" height="7.20" width="7.20"/>
+      <pdc:highlight y="29.50" x="16.30" height="7.20" width="7.20"/>
+      <pdc:highlight y="37.30" x="16.30" height="7.20" width="7.20"/>
+    </pdc:annotation>
+    <pdc:annotation description="Element is expressed with unsupported coordinate(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-pixelgrid">
+      <pdc:highlight y="44.50" x="16.30" details="Invalid point: (16.30, 44.50). Used closest supported coordinate: (16.25, 44.5)"/>
+      <pdc:highlight y="44.50" x="15.70" details="Invalid point: (15.70, 44.50). Used closest supported coordinate: (15.75, 44.5)"/>
+      <pdc:highlight y="42.40" x="10.60" details="Invalid point: (10.60, 42.40). Used closest supported coordinate: (10.625, 42.375)"/>
+      <pdc:highlight y="37.30" x="8.50" details="Invalid point: (8.50, 37.30). Used closest supported coordinate: (8.5, 37.25)"/>
+      <pdc:highlight y="36.70" x="8.50" details="Invalid point: (8.50, 36.70). Used closest supported coordinate: (8.5, 36.75)"/>
+      <pdc:highlight y="31.60" x="10.60" details="Invalid point: (10.60, 31.60). Used closest supported coordinate: (10.625, 31.625)"/>
+      <pdc:highlight y="29.50" x="15.70" details="Invalid point: (15.70, 29.50). Used closest supported coordinate: (15.75, 29.5)"/>
+      <pdc:highlight y="29.50" x="16.30" details="Invalid point: (16.30, 29.50). Used closest supported coordinate: (16.25, 29.5)"/>
+      <pdc:highlight y="31.60" x="21.40" details="Invalid point: (21.40, 31.60). Used closest supported coordinate: (21.375, 31.625)"/>
+      <pdc:highlight y="36.70" x="23.50" details="Invalid point: (23.50, 36.70). Used closest supported coordinate: (23.5, 36.75)"/>
+      <pdc:highlight y="37.30" x="23.50" details="Invalid point: (23.50, 37.30). Used closest supported coordinate: (23.5, 37.25)"/>
+      <pdc:highlight y="42.40" x="21.40" details="Invalid point: (21.40, 42.40). Used closest supported coordinate: (21.375, 42.375)"/>
+      <pdc:highlight y="44.50" x="16.30" details="Invalid point: (16.30, 44.50). Used closest supported coordinate: (16.25, 44.5)"/>
+    </pdc:annotation>
+  </path>
+  <polygon fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="  39,70 62,38 54,32 62,4 39.9,33 48,39 ">
+    <pdc:annotation description="Element is expressed with unsupported coordinate(s)." href="https://pebbletechnology.atlassian.net/wiki/display/DEV/Pebble+Draw+Commands#PebbleDrawCommands-issue-pixelgrid">
+      <pdc:highlight y="33.00" x="39.90" details="Invalid point: (39.90, 33.00). Used closest supported coordinate: (39.875, 33.0)"/>
+    </pdc:annotation>
+  </polygon>
+</svg>
+
